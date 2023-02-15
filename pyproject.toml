@@ -12,6 +12,8 @@ transformers = "^4.26.1"
 torch = "^1.13.1"
 sentencepiece = "^0.1.97"
 jupyter = "^1.0.0"
+jupyter_client = { git = "https://github.com/jupyter/jupyter_client.git", tag = "v8.0.2" }
+timm = "^0.6.12"
 
 [tool.poetry.dev-dependencies]
 

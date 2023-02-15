@@ -1,1 +1,2 @@
+mlflow ui
 jupyter lab
