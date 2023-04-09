@@ -6,14 +6,11 @@ authors = ["김은미 <eunmi.kim@toss.im>"]
 
 [tool.poetry.dependencies]
 python = "^3.8,<3.10"
-Mako = { git = "https://github.com/sqlalchemy/mako.git", tag = "rel_1_2_2" }
-mlflow = "2.1.1"
-transformers = "^4.26.1"
-torch = "^1.13.1"
-sentencepiece = "^0.1.97"
+transformers = "^4.27.4"
 jupyter = "^1.0.0"
-jupyter_client = { git = "https://github.com/jupyter/jupyter_client.git", tag = "v8.0.2" }
-timm = "^0.6.12"
+torch = "^2.0.0"
+torchvision = "^0.15.1"
+torchaudio = "^2.0.1"
 
 [tool.poetry.dev-dependencies]
 
