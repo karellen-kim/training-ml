@@ -6,7 +6,7 @@ authors = ["김은미 <eunmi.kim@toss.im>"]
 
 [tool.poetry.dependencies]
 python = "^3.8,<3.10"
-transformers = "^4.27.4"
+transformers = "^4.28.0.dev0"
 jupyter = "^1.0.0"
 torch = "^2.0.0"
 torchvision = "^0.15.1"
@@ -14,6 +14,11 @@ torchaudio = "^2.0.1"
 accelerate = "^0.18.0"
 setuptools = "^67.6.1"
 sentencepiece = "^0.1.97"
+bitsandbytes = "^0.38.1"
+datasets = "^2.11.0"
+matplotlib = "^3.7.1"
+llvmlite = "^0.39.1"
+umap-learn = "^0.5.3"
 
 [tool.poetry.dev-dependencies]
 
