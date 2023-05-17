@@ -2,7 +2,7 @@
 name = "pythonproject"
 version = "0.1.0"
 description = ""
-authors = ["김은미 <eunmi.kim@toss.im>"]
+authors = ["karellen.kim <karellen.kim@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8,<3.10"
