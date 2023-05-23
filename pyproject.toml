@@ -5,7 +5,7 @@ description = ""
 authors = ["karellen.kim <karellen.kim@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.8,<3.10"
+python = "^3.10"
 transformers = "^4.28.0.dev0"
 jupyter = "^1.0.0"
 torch = "^2.0.0"
