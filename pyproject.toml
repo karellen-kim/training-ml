@@ -22,6 +22,7 @@ umap-learn = "^0.5.3"
 sentence-transformers = "^2.2.2"
 pymilvus = "^2.2.8"
 milvus = "^2.2.8"
+pandas = "^2.0.1"
 
 [tool.poetry.dev-dependencies]
 

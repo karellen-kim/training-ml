@@ -1,2 +1,2 @@
 mlflow ui
-jupyter lab
+poetry run jupyter-lab
