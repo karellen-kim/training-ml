@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "pythonproject"
+version = "0.1.0"
+description = ""
+authors = ["karellen.kim <karellen.kim@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+transformers = "^4.28.0.dev0"
+jupyter = "^1.0.0"
+torch = "^2.0.0"
+torchvision = "^0.15.1"
+torchaudio = "^2.0.1"
+accelerate = "^0.18.0"
+setuptools = "^67.6.1"
+sentencepiece = "^0.1.97"
+bitsandbytes = "^0.38.1"
+datasets = "^2.11.0"
+matplotlib = "^3.7.1"
+llvmlite = "^0.39.1"
+umap-learn = "^0.5.3"
+sentence-transformers = "^2.2.2"
+pandas = "^2.0.1"
+
+[tool.poetry.dev-dependencies]
+
+#[[tool.poetry.source]]
+#name = "pytorch"
+#url = "https://download.pytorch.org/whl/nightly/cpu/"
+#default = false
+#secondary = true
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
