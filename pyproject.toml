@@ -26,11 +26,11 @@ pandas = "^2.0.1"
 
 [tool.poetry.dev-dependencies]
 
-[[tool.poetry.source]]
-name = "pytorch"
-url = "https://download.pytorch.org/whl/nightly/cpu/"
-default = false
-secondary = true
+#[[tool.poetry.source]]
+#name = "pytorch"
+#url = "https://download.pytorch.org/whl/nightly/cpu/"
+#default = false
+#secondary = true
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
