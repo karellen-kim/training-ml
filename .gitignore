@@ -1,6 +1,9 @@
 mlruns
 .ipynb_checkpoints
 .idea
+.env
 dataset
-/ch_bert/milvus_data/
 /volumes/
+venv/
+myvenv/
+milvus_data/
