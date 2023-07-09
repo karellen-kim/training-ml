@@ -1,0 +1,5 @@
+{
+  "_type": "prompt",
+  "input_variables": ["author", "book"],
+  "template": "{author} 작가의 {book}에 대해서 알려줘"
+}
